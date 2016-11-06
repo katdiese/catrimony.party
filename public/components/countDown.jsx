@@ -1,14 +1,14 @@
 var React = require('react');
 
-var Header = React.createClass({
+var CountDown = React.createClass({
   render: function() {
     return(
       <div>
-        <h1>Meow!!!!</h1>
+        <h1>Hi Steve!!! I love you!!!!!</h1>
       </div>
 
       );
   }
 });
 
-module.exports = Header;
+module.exports = CountDown;

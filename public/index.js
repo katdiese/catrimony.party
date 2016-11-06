@@ -1,8 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Header = require('./src/header');
-
-// var Home = require('./src/header.jsx');
+var Header = require('./components/header');
 
 ReactDOM.render(
     <div>
