@@ -2,3 +2,14 @@
   font-family: 'Calligraphy';
   src: url('/styles/fonts/October-Twilight.ttf');
 }
+
+@font-face {
+  font-family: 'Watermelon';
+  src: url('/styles/fonts/Watermelon-Script.ttf');
+}
+
+$header-font: 'Watermelon', cursive, serif;
+
+h1 {
+  font: $header-font;
+}
