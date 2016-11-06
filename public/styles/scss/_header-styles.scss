@@ -1,0 +1,16 @@
+.hero {
+  background-image: url('/images/header-image.JPG');
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+
+  .hero-text {
+    text-align: center;
+    font-family: Calligraphy;
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
