@@ -824,15 +824,12 @@ there.
 /* Larger than desktop */
 /* Larger than Desktop HD */
 @font-face {
-  font-family: 'Calligraphy';
-  src: url("/styles/fonts/October-Twilight.ttf"); }
+  font-family: 'Dingleberries';
+  src: url("/styles/fonts/Dingleberries.ttf"); }
 
 @font-face {
   font-family: 'Watermelon';
   src: url("/styles/fonts/Watermelon-Script.ttf"); }
-
-h1 {
-  font: "Watermelon", cursive, serif; }
 
 .hero {
   background-image: url("/images/header-image.JPG");
@@ -847,6 +844,8 @@ h1 {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px; }
+  .hero .accents {
+    font-family: 'Dingleberries'; }
 
 html {
   padding: 0;
