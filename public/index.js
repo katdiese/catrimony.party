@@ -1,3 +1,4 @@
+require("./styles/css/style.css");
 var React = require('react');
 var ReactDOM = require('react-dom');
 var Header = require('./components/header');
