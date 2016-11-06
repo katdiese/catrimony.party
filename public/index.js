@@ -1,27 +1,21 @@
-var HomeListing = React.createClass({
-  render() {
-    return(
-      <div>
-        <Header />
-        <h1>Meow</h1>
-      </div>
+var React = require('react');
+var ReactDOM = require('react-dom');
+var Header = require('./src/header');
 
-      );
-  }
-});
-
-var Header = React.createClass({
-  render() {
-    return(
-      <div>
-        <h1>Meow!!!!!</h1>
-      </div>
-
-      );
-  }
-});
+// var Home = require('./src/header.jsx');
 
 ReactDOM.render(
-  <HomeListing />,
-  document.getElementById('content')
+    <div>
+      <h1>hii</h1>
+      <Header />
+    </div>,
+    document.getElementById('app')
 );
+
+
+// ReactDOM.render(
+//   <App />,
+//   document.querySelector('container')
+// )
+
+console.log('hello');

@@ -1,5 +1,7 @@
+var React = require('react');
+
 var Header = React.createClass({
-  render() {
+  render: function() {
     return(
       <div>
         <h1>Meow!!!!</h1>
@@ -9,4 +11,4 @@ var Header = React.createClass({
   }
 });
 
-export default Header;
+module.exports = Header;
