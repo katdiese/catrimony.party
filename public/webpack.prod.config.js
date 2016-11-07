@@ -1,7 +1,9 @@
+const webpack = require('webpack');
+
 module.exports = {
-    entry: "./index.js",
+    entry: "./public/index.js",
     output: {
-        path: __dirname,
+        path: "./public",
         filename: "bundle.js"
     },
     module: {
@@ -13,7 +15,11 @@ module.exports = {
             }
         ]
     },
+    plugins: [
+        new webpack.optimize.UglifyJsPlugin()
+    ],
     resolve: {
       extensions: ['', '.js', '.json', '.jsx']
-    }
+    },
+
 };
