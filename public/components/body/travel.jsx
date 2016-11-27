@@ -20,12 +20,12 @@ var Travel = React.createClass({
           </div>
         </div>
         <div className="row">
-          <div className="six columns">
+          <div className="six columns detail-element">
             <h4 className="text-center">Staying Here</h4>
             <p>Discounted Lodging is available for our guests through Keystone Resort. To look at rates/availability, please visit <a href="https://gc.synxis.com/rez.aspx?Hotel=40076&Chain=6521&start=availresults&arrive=12/17/2017&depart=12/18/2017&adult=1&child=0&group=GO4DIE">this link</a>. This is a great option because you are right on the resort and won't have to worry about logistics.</p>
             <p>However, being that Keystone is a ski town, we also suggest that guests also look into <a href="https://www.airbnb.com/s/Keystone--CO--United-States?guests=2&place_id=ChIJg2V85yRXaocRYfovfYgMZ0M&checkin=12%2F16%2F2017&checkout=12%2F18%2F2017&ss_id=coc8kltt&source=bb&page=1&allow_override%5B%5D=&s_tag=8n6KaoZf">Air BNB</a> for a variety of lodging options to accomodate small and large groups at a reasonable cost, often times with access to a kitchen. A potential downside is Air BNB rentals may not be as convenient to public transportation, but Steve and I have not experienced that before. Just remember to keep that in mind when searching and booking.</p>
           </div>
-          <div className="six columns">
+          <div className="six columns detail-element">
             <h4 className="text-center">A word about altitude...</h4>
             <p>It is hard to anticipate how alitude will affect any specific person, but it is typically not too much of a problem. The air <strong>will</strong> be a bit thinner and drier up there, but believe us: you <strong>will</strong> survive, and be just fine. A little bit of chapstick and hand lotion, as well as a handy bottle of water, will go a long way.
             </p>

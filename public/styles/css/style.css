@@ -860,7 +860,7 @@ there.
 .weekend-details .align-right {
   text-align: right; }
 
-.weekend-details .detail-element {
+.detail-element {
   margin: 40px 0;
   background: #D3D3D3;
   border-radius: 10px;
