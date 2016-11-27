@@ -3,6 +3,7 @@
 @import "colors";
 @import "fonts";
 @import "header-styles";
+@import "body-styles";
 
 
 html {
@@ -11,4 +12,7 @@ html {
 }
 img {
   width: 100%;
+}
+.text-center {
+  text-align: center;
 }

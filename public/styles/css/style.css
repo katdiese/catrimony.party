@@ -408,7 +408,7 @@ th {
   .container {
     width: 80%; }
   .column,
-  .columns {
+  .columns:not(:first-child) {
     margin-left: 4%; }
   .column:first-child,
   .columns:first-child {
@@ -831,6 +831,12 @@ there.
   font-family: 'Watermelon';
   src: url("/styles/fonts/Watermelon-Script.ttf"); }
 
+.calligraphy {
+  font-family: 'Watermelon', cursive, serif; }
+
+.curly-accent {
+  font-family: 'Dingleberries', sans-serif; }
+
 .hero {
   background-image: url("/images/header-image.JPG");
   background-size: cover;
@@ -847,9 +853,25 @@ there.
   .hero .accents {
     font-family: 'Dingleberries'; }
 
+.weekend-details h1 {
+  padding-top: 40px;
+  text-align: center; }
+
+.weekend-details .align-right {
+  text-align: right; }
+
+.weekend-details .detail-element {
+  margin: 40px 0;
+  background: #D3D3D3;
+  border-radius: 10px;
+  padding: 20px; }
+
 html {
   padding: 0;
   margin: 0; }
 
 img {
   width: 100%; }
+
+.text-center {
+  text-align: center; }
