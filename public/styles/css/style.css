@@ -866,6 +866,19 @@ there.
   border-radius: 10px;
   padding: 20px; }
 
+.favorite-places {
+  width: 100%;
+  background-image: url("/images/mountains.jpg");
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex; }
+  .favorite-places .info {
+    margin: auto;
+    text-align: center; }
+    .favorite-places .info a {
+      color: black; }
+
 html {
   padding: 0;
   margin: 0; }
