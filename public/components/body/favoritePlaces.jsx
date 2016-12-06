@@ -6,7 +6,7 @@ var FavoritePlaces = React.createClass({
       <div className="favorite-places">
         <div className="info">
           <h2>Have Time to Explore CO?</h2>
-          <h4><a target="_blank" href="https://drive.google.com/open?id=1o6KoLEliyndmCoL-HSWf3wo-qlw&usp=sharing">Check out our favorite spots</a></h4>
+          <a target="_blank" href="https://drive.google.com/open?id=1o6KoLEliyndmCoL-HSWf3wo-qlw&usp=sharing"><button>Check out our favorite spots</button></a>
         </div>
       </div>
 
