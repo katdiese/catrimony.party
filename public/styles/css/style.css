@@ -885,7 +885,8 @@ there.
   margin: 60px 0 20px 0; }
 
 .gallery iframe {
-  width: 100%; }
+  width: 100%;
+  border: 0 none; }
 
 html {
   padding: 0;
