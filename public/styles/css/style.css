@@ -878,6 +878,8 @@ there.
     text-align: center; }
     .favorite-places .info a {
       color: black; }
+    .favorite-places .info button {
+      background-color: rgba(255, 255, 255, 0.7); }
 
 html {
   padding: 0;
