@@ -1,6 +1,7 @@
 var React = require('react');
-var WeekendDetails = require('./WeekendDetails');
+var WeekendDetails = require('./weekendDetails');
 var Travel = require('./travel');
+var FavoritePlaces = require('./favoritePlaces');
 
 var Body = React.createClass({
   render() {
@@ -8,6 +9,7 @@ var Body = React.createClass({
       <div>
         <WeekendDetails />
         <Travel />
+        <FavoritePlaces />
       </div>
 
     );
