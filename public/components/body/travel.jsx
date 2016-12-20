@@ -1,4 +1,5 @@
 var React = require('react');
+var FavoritePlaces = require('./favoritePlaces');
 
 var Travel = React.createClass({
   render() {
@@ -19,6 +20,7 @@ var Travel = React.createClass({
             <p>Once at Keystone, getting around is easy. Free shuttle buses run daily throughout the Keystone Resort as well as surrounding ski areas. See <a target="_blank" href="http://www.keystoneresort.com/plan-a-vacation/transportation-schedule-and-parking.aspx#/GettingAround">here</a> to access schedules for Keystone, and <a target="_blank" href="http://summitcountyco.gov/586/Transit-Summit-Stage/?cmpid=ET7217064&cmpid=ET7878642_KY_REU_1_FY17">Check out these schedules</a> to explore summit county and the surrounding resorts.</p>
           </div>
         </div>
+        <hr />
         <div className="row">
           <div className="six columns detail-element">
             <h4 className="text-center">Staying Here</h4>

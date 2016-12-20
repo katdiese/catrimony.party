@@ -17,3 +17,9 @@
     font-family: 'Dingleberries';
   }
 }
+
+@media only screen and (max-width : 600px) {
+  .hero {
+    background-image: url('/images/mobile-hero.jpg');
+  }
+}

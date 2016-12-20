@@ -853,6 +853,10 @@ there.
   .hero .accents {
     font-family: 'Dingleberries'; }
 
+@media only screen and (max-width: 600px) {
+  .hero {
+    background-image: url("/images/mobile-hero.jpg"); } }
+
 .weekend-details h1 {
   padding-top: 40px;
   text-align: center; }
