@@ -853,6 +853,20 @@ there.
   .hero .accents {
     font-family: 'Dingleberries'; }
 
+nav {
+  z-index: 100;
+  position: fixed;
+  background: #363c3d;
+  height: 60px;
+  color: white;
+  width: 100%; }
+  nav a {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    padding: 20px 10px;
+    text-decoration: none; }
+
 @media only screen and (max-width: 600px) {
   .hero {
     background-image: url("/images/mobile-hero.jpg"); } }
@@ -888,13 +902,14 @@ there.
 .our-story h1 {
   margin: 60px 0 20px 0; }
 
-.gallery iframe {
-  width: 100%;
-  border: 0 none; }
+.gallery .flickr {
+  width: 500px;
+  height: 500px; }
 
 html {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  z-index: 0; }
 
 img {
   width: 100%; }

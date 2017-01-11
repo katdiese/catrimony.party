@@ -4,8 +4,8 @@ var FavoritePlaces = require('./favoritePlaces');
 var Travel = React.createClass({
   render() {
     return (
-      <div className="container travel">
-        <h1 className="calligraphy text-center">Getting Here</h1>
+      <div className="container travel" id="getting-here">
+        <h1 className="calligraphy text-center" >Getting Here</h1>
         <div className="row">
           <div className="four columns detail-element">
             <h4 className="text-center">By Plane</h4>

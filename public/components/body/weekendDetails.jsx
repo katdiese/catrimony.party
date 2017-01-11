@@ -4,7 +4,7 @@ var WeekendDetails = React.createClass({
   render() {
     return (
       <div className="container weekend-details">
-        <h1 className="calligraphy">Weekend Details</h1>
+        <h1 className="calligraphy" id="weekend-deets">Weekend Details</h1>
         <div className="row detail-element">
           <h4>
             The party before the party (Welcome to Colorado!)
