@@ -10,9 +10,9 @@ var Body = React.createClass({
     return (
       <div>
         <WeekendDetails />
+        <OurStory />
         <Travel />
         <FavoritePlaces />
-        <OurStory />
         <Gallery />
       </div>
 

@@ -37,9 +37,7 @@ var CountDown = React.createClass({
     }
     return (
       <div>
-        <h1>There are</h1>
-        <h3>{ this.state.days } days, { this.state.hours } hours, { this.state.minutes } minutes, and { this.state.seconds } seconds</h3>
-        <h1>Till the day of our wedding!!!</h1>
+        <h3 className="text-center">Count down to catrimony: { this.state.days } days, { this.state.hours } hours, { this.state.minutes } minutes, and { this.state.seconds } seconds</h3>
       </div>
     );
   }

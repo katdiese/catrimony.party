@@ -14,9 +14,9 @@ var Header = React.createClass({
             <h4>December 17, 2017</h4>
             <h4>Keystone, Colorado</h4>
             <h1 className="accents"> &#40; &#34; &#41; </h1>
-            <CountDown />
           </div>
         </div>
+        <CountDown />
       </div>
 
       );

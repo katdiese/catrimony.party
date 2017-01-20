@@ -17,12 +17,14 @@
     "babel-preset-stage-0": "^6.16.0",
     "chai": "^3.5.0",
     "chai-jquery": "^2.0.0",
+    "css-loader": "^0.26.1",
     "jquery": "^2.2.1",
     "jsdom": "^8.1.0",
     "mocha": "^2.4.5",
     "postcss-loader": "^0.8.2",
     "precss": "^1.4.0",
     "react-addons-test-utils": "^0.14.7",
+    "style-loader": "^0.13.1",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
   },
@@ -46,7 +48,8 @@
     "react-images": "^0.5.2",
     "react-redux": "^4.0.0",
     "react-router": "^2.0.1",
-    "redux": "^3.0.4"
+    "redux": "^3.0.4",
+    "style-loader": "^0.13.1"
   },
   "description": ""
 }
