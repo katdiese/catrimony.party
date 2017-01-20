@@ -905,15 +905,30 @@ nav {
     color: white;
     padding: 20px 10px;
     text-decoration: none; }
+  nav .close, nav .hamburger {
+    display: none; }
   nav img {
     width: 25px;
     height: 20px;
     float: right;
+    display: none;
     position: relative;
     top: 20px;
     right: 30px; }
     nav img:hover {
       cursor: pointer; }
+
+@media only screen and (max-width: 600px) {
+  nav .desk-nav {
+    display: none; }
+  nav .hamburger {
+    display: block; }
+  nav img {
+    display: block; } }
+
+@media only screen and (min-width: 600px) {
+  .hamburger, .close {
+    display: none; } }
 
 html {
   padding: 0;

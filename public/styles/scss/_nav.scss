@@ -13,15 +13,40 @@ nav {
     text-decoration: none;
   }
 
+  .close, .hamburger {
+    display: none;
+  }
+
   img {
     width: 25px;
     height: 20px;
     float: right;
+    display: none;
     position: relative;
     top: 20px;
     right: 30px;
     &:hover{
       cursor: pointer;
     }
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  nav {
+    .desk-nav {
+      display: none;
+    }
+    .hamburger {
+      display: block;
+    }
+    img {
+      display: block;
+    }
+  }
+}
+
+@media only screen and (min-width : 600px) {
+  .hamburger, .close {
+    display: none;
   }
 }
