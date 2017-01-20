@@ -1,0 +1,27 @@
+nav {
+  z-index: 100;
+  position: fixed;
+  background: $dark-gray;
+  height: 60px;
+  color: white;
+  width: 100%;
+  a {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    padding: 20px 10px;
+    text-decoration: none;
+  }
+
+  img {
+    width: 25px;
+    height: 20px;
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 30px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
