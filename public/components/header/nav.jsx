@@ -5,6 +5,7 @@ var Nav = React.createClass({
     return(
       <div>
         <nav className="nav">
+        <img className="hamburger" src="/images/hamburger.png"/>
           <i className="fa fa-tree" aria-hidden="true"></i>
           <a href="#weekend-deets">
             Details
@@ -13,7 +14,7 @@ var Nav = React.createClass({
           <a href="#story">Story</a>
           <a href="#gallery">Gallery</a>
           <a href="#vip">VIP</a>
-          <a href="#registry">Registry</a>
+          <a target="_blank" href="https://www.newlywish.com/registry/catrimony">Registry</a>
         </nav>
       </div>
 

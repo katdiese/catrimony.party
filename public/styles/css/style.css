@@ -853,20 +853,6 @@ there.
   .hero .accents {
     font-family: 'Dingleberries'; }
 
-nav {
-  z-index: 100;
-  position: fixed;
-  background: #363c3d;
-  height: 60px;
-  color: white;
-  width: 100%; }
-  nav a {
-    display: inline-block;
-    font-size: 20px;
-    color: white;
-    padding: 20px 10px;
-    text-decoration: none; }
-
 @media only screen and (max-width: 600px) {
   .hero {
     background-image: url("/images/mobile-hero.jpg"); } }
@@ -899,12 +885,35 @@ nav {
     .favorite-places .info button {
       background-color: rgba(255, 255, 255, 0.7); }
 
-.our-story h1 {
-  margin: 60px 0 20px 0; }
+.our-story h1, .travel h1 {
+  padding-top: 30px; }
 
 .gallery .flickr {
   width: 500px;
   height: 500px; }
+
+nav {
+  z-index: 100;
+  position: fixed;
+  background: #363c3d;
+  height: 60px;
+  color: white;
+  width: 100%; }
+  nav a {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    padding: 20px 10px;
+    text-decoration: none; }
+  nav img {
+    width: 25px;
+    height: 20px;
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 30px; }
+    nav img:hover {
+      cursor: pointer; }
 
 html {
   padding: 0;
