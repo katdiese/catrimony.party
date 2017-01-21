@@ -74,7 +74,7 @@ var Vip = React.createClass({
               <div className="eight columns">
                 <h4>Best Man</h4>
                 <p>
-                  Kim Dieser has been Kathy’s big sister for literally as long as she can remember. She is the most loyal, reliable, thoughtful, and helpful person Kathy has ever met, and one of her personal heroes.
+                  Brian Colonnese will be the easiest guy at the wedding to start a conversation with. For a good ice breaker, just ask him how he and Steve met. Friends since College.
                 </p>
               </div>
             </div>
@@ -85,7 +85,7 @@ var Vip = React.createClass({
               <div className="eight columns">
                 <h4>Groomsman</h4>
                 <p>
-                  Katie Kissel is Kathy’s best friend from college, and has been one of the most important people in Kathy’s life. Katie is Kathy’s girl soul mate and has always been there when needed most. Their relationship has grown stronger despite the distance, not having lived in the same state since college.
+                  Kelvin Dieser is the only guy to ever match Steve at his favorite board game. Unfortunately for the two of them, that means neither of them has ever won. Future brother in law.
                 </p>
               </div>
             </div>
@@ -107,7 +107,7 @@ var Vip = React.createClass({
               <div className="eight columns">
                 <h4>Groomsman</h4>
                 <p>
-                  Kristin Straily is one of Kathy’s best friends in Colorado. The two met through Steve’s job (they still work together) and instantly bonded on how bad Steve can be with girls. Kristin is the only person that Kathy’s ever met that plays underwater hockey (until she met some of Kristin’s teammates, of course).
+                  John Longo literally taught Steve everything he knows about snowboarding. To return the favor Steve taught Longo how to build a cabin. Friends since college.
                 </p>
               </div>
             </div>
