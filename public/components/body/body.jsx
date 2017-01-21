@@ -4,6 +4,7 @@ var Travel = require('./travel');
 var FavoritePlaces = require('./favoritePlaces');
 var OurStory = require('./ourStory');
 var Gallery = require('./gallery');
+var Vip = require('./vip');
 
 var Body = React.createClass({
   render() {
@@ -13,6 +14,7 @@ var Body = React.createClass({
         <OurStory />
         <Travel />
         <FavoritePlaces />
+        <Vip />
         <Gallery />
       </div>
 

@@ -888,6 +888,9 @@ there.
 .our-story h1, .travel h1 {
   padding-top: 30px; }
 
+.vip-title {
+  margin-top: 30px; }
+
 .gallery .flickr {
   width: 500px;
   height: 500px; }

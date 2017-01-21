@@ -29,9 +29,11 @@ var Travel = React.createClass({
           </div>
           <div className="six columns detail-element">
             <h4 className="text-center">A word about altitude...</h4>
-            <p>It is hard to anticipate how alitude will affect any specific person, but it is typically not too much of a problem. The air <strong>will</strong> be a bit thinner and drier up there, but believe us: you <strong>will</strong> survive, and be just fine. A little bit of chapstick and hand lotion, as well as a handy bottle of water, will go a long way.
+            <p>
+              Whether you're a 2:45:04 marathon runner or a couch potato we want you to know that altitude sickness is real and statistically will affect a small number of our guests. Most folks experience at least a little discomfort until they acclimate to the altitude. <a href="http://www.webmd.com/a-to-z-guides/tc/altitude-sickness-topic-overview#1">Here</a> is an WebMD article which details how to deal with altitude, but in summary: stay hydrated, be cautious with alcohol, eat well, and take it easy on physical exertion to allow your body to acclimate. (We're not kidding about easing into exercise, you fitness freaks!)
             </p>
-            <p>Please remember to stay adequately hydrated while out here, because you'll need to feel your best to keep partying! For more tips on dealing with altitude, check out <a target="_blank" href="http://www.denver.org/about-denver/denver-resources/high-altitude-tips/">Visit Denver</a>'s website.
+            <p>
+              Being affected by altitude is never fun, but most cases are very temporary - like an annoying hangover. The best you can do is <strong>rest, stay hydrated, ease up on alcohol and heavy foods, and stay positive</strong>. You'll be feeling yourself again after a good night sleep.
             </p>
             <p>
               One more reminder: It will get cold! That sounds obvious, but we are serious. Please remember to dress appropriately to keep yourself comfortable and safe. One phrase we like to remember is "The heat is all in the sun." If the sun is out, there is a good chance that it will be warmer out. However, temperatures drop dramatically when it sets.
