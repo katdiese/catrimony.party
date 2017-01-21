@@ -107,7 +107,7 @@ var Vip = React.createClass({
               <div className="eight columns">
                 <h4>Groomsman</h4>
                 <p>
-                  Kristin Straily is one of Kathy’s best friend in Colorado. The two met through Steve’s job (they still work together) and instantly bonded on how bad Steve can be with girls. Kristin is the only person that Kathy’s ever met that plays underwater hockey (until she met some of Kristin’s teammates, of course).
+                  Kristin Straily is one of Kathy’s best friends in Colorado. The two met through Steve’s job (they still work together) and instantly bonded on how bad Steve can be with girls. Kristin is the only person that Kathy’s ever met that plays underwater hockey (until she met some of Kristin’s teammates, of course).
                 </p>
               </div>
             </div>
@@ -122,6 +122,14 @@ var Vip = React.createClass({
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="four offset-by-one columns">
+            <img src="/images/party/kids.jpg" />
+          </div>
+          <div className="six columns">
+            <p className="text-center">What's a wedding without a little "awwww!!!" These are Katie's gorgeous kids Gus and Charlie Kissel. Gus will walk as the ring bearer and Charlie (Kathy's goddaughter) will be the flower girl.</p>
           </div>
         </div>
       </div>
