@@ -14,7 +14,6 @@ var Body = React.createClass({
         <OurStory />
         <Travel />
         <FavoritePlaces />
-        <Vip />
         <Gallery />
       </div>
 
