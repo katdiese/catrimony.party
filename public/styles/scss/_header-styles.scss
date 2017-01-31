@@ -7,7 +7,6 @@
 
   .hero-text {
     text-align: center;
-    font-family: Watermelon;
     margin: auto;
     background-color:rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -15,6 +14,10 @@
   }
   .accents {
     font-family: 'Dingleberries';
+  }
+
+  .short-lines {
+    line-height: 50%;
   }
 }
 

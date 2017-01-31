@@ -845,13 +845,14 @@ there.
   display: flex; }
   .hero .hero-text {
     text-align: center;
-    font-family: Watermelon;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px; }
   .hero .accents {
     font-family: 'Dingleberries'; }
+  .hero .short-lines {
+    line-height: 50%; }
 
 @media only screen and (max-width: 600px) {
   .hero {
@@ -910,6 +911,14 @@ nav {
     text-decoration: none; }
   nav .close, nav .hamburger {
     display: none; }
+  nav .mobile-nav {
+    display: none;
+    z-index: 500000;
+    list-style: none;
+    padding: 30px;
+    background-color: #363c3d; }
+    nav .mobile-nav li {
+      line-height: 70%; }
   nav img {
     width: 25px;
     height: 20px;
@@ -930,7 +939,7 @@ nav {
     display: block; } }
 
 @media only screen and (min-width: 600px) {
-  .hamburger, .close {
+  .hamburger, .close, .mobile-nav {
     display: none; } }
 
 html {

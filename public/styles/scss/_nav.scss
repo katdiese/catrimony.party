@@ -17,6 +17,17 @@ nav {
     display: none;
   }
 
+  .mobile-nav {
+    display: none;
+    z-index: 500000;
+    list-style: none;
+    padding: 30px;
+    li {
+      line-height: 70%;
+    }
+    background-color: $dark-gray;
+  }
+
   img {
     width: 25px;
     height: 20px;
@@ -46,7 +57,7 @@ nav {
 }
 
 @media only screen and (min-width : 600px) {
-  .hamburger, .close {
+  .hamburger, .close, .mobile-nav {
     display: none;
   }
 }
