@@ -18,7 +18,7 @@ var WeekendDetails = React.createClass({
           <h4>The Main Event</h4>
           <img className="three columns" src="/images/ranch-winter.jpg"/>
           <div className="eight columns">
-            <ul>
+            <ul className="wedding-details">
               <li><strong>Ceremony Start Time:</strong> 3:30PM MTN Standard Time</li>
               <li><strong>Location:</strong> Keystone Ranch</li>
                 <ul>

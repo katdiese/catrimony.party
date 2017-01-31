@@ -25,8 +25,8 @@ var Nav = React.createClass({
   },
   componentDidMount() {
     this.hideNav();
-    window.addEventListener("resize", this.hideNav.bind(this));
-    window.addEventListener("resize", this.showNav.bind(this));
+    window.addEventListener("resize", this.hideNav);
+    window.addEventListener("resize", this.showNav);
   },
   render() {
     return(
@@ -39,12 +39,14 @@ var Nav = React.createClass({
           <a className="desk-nav" href="#story">Story</a>
           <a className="desk-nav" href="#gallery">Gallery</a>
           <a className="desk-nav" target="_blank" href="https://www.newlywish.com/registry/catrimony">Registry</a>
+          <a className="desk-nav" href="mailto:kathyandsteve4ever@gmail.com">Contact Us!</a>
           <ul className="mobile-nav" id="mobile-nav">
             <li onClick={() => this.showHamburger()}><a href="#weekend-deets">Details</a></li>
             <li onClick={() => this.showHamburger()}><a href="#getting-here">Getting Here</a></li>
             <li onClick={() => this.showHamburger()}><a href="#story">Story</a></li>
             <li onClick={() => this.showHamburger()}><a href="#gallery">Gallery</a></li>
             <li onClick={() => this.showHamburger()}><a target="_blank" href="https://www.newlywish.com/registry/catrimony">Registry</a></li>
+            <li onClick={() => this.showHamburger()}><a href="mailto:kathyandsteve4ever@gmail.com">Contact Us!</a></li>
           </ul>
         </nav>
       </div>

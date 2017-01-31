@@ -24,8 +24,10 @@ var Travel = React.createClass({
         <div className="row">
           <div className="six columns detail-element">
             <h4 className="text-center">Staying Here</h4>
-            <p>Discounted Lodging is available for our guests through Keystone Resort. To look at rates/availability, please visit <a target="_blank" href="https://gc.synxis.com/rez.aspx?Hotel=40076&Chain=6521&start=availresults&arrive=12/17/2017&depart=12/18/2017&adult=1&child=0&group=GO4DIE">this link</a>. This is a great option because you are right on the resort and won't have to worry about logistics.</p>
+            <p>Discounted Lodging is available for our guests through Keystone Resort. To look at rates/availability, please visit <a target="_blank" href="https://gc.synxis.com/rez.aspx?Hotel=40076&Chain=6521&start=availresults&arrive=12/17/2017&depart=12/18/2017&adult=1&child=0&group=GO4DIE">this link</a>, or call<a href="tel:888-273-2502">888-273-2502</a>. This is a great option because you are right on the resort and won't have to worry about logistics.</p>
             <p>However, being that Keystone is a ski town, we also suggest that guests also look into <a target="_blank" href="https://www.airbnb.com/s/Keystone--CO--United-States?guests=2&place_id=ChIJg2V85yRXaocRYfovfYgMZ0M&checkin=12%2F16%2F2017&checkout=12%2F18%2F2017&ss_id=coc8kltt&source=bb&page=1&allow_override%5B%5D=&s_tag=8n6KaoZf">Air BNB</a> for a variety of lodging options to accomodate small and large groups at a reasonable cost, often times with access to a kitchen. A potential downside is Air BNB rentals may not be as convenient to public transportation, but Steve and I have not experienced that before. Just remember to keep that in mind when searching and booking.</p>
+              <p><a target="_blank" href="http://www.keystoneresort.com/activities/winter-activities.aspx">Winter activities around Keystone</a></p>
+              <p><a target="_blank" href="http://www.keystoneresort.com/restaurants-and-nightlife/dining-explorer.aspx">Keystone Dining Explorer</a></p>
           </div>
           <div className="six columns detail-element">
             <h4 className="text-center">A word about altitude...</h4>
