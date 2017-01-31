@@ -50,7 +50,7 @@ var Vip = React.createClass({
               <div className="eight columns">
                 <h4>Bridesmaid</h4>
                 <p>
-                  <strong>Kristin Straily</strong> is one of Kathy’s best friend in Colorado. The two met through Steve’s job (they still work together) and instantly bonded on how bad Steve can be with girls. Kristin is the only person that Kathy’s ever met that plays underwater hockey (until she met some of Kristin’s teammates, of course).
+                  <strong>Kristin Straily</strong> is one of Kathy’s best friends in Colorado. The two met through Steve’s job (they still work together) and instantly bonded on how bad Steve can be with girls. Kristin is the only person that Kathy’s ever met that plays underwater hockey (until she met some of Kristin’s teammates, of course).
                 </p>
               </div>
             </div>
@@ -124,7 +124,7 @@ var Vip = React.createClass({
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row container">
           <div className="four offset-by-one columns">
             <img src="/images/party/kids.jpg" />
           </div>
