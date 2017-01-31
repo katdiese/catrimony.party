@@ -1,6 +1,18 @@
 var React = require('react');
 
 var Nav = React.createClass({
+  hideNav: function() {
+    if(window.innerWidth > 600) {
+      document.getElementById("hamburger").style.display = "none";
+      document.getElementById("mobile-nav").style.display = "none";
+      document.getElementById("close").style.display = "none";
+    }
+  },
+  showNav: function() {
+    if(window.innerWidth < 600) {
+      document.getElementById("hamburger").style.display = "block";
+    }
+  },
   showClose: function() {
     document.getElementById("close").style.display = "block";
     document.getElementById("mobile-nav").style.display = "block";
@@ -10,6 +22,11 @@ var Nav = React.createClass({
     document.getElementById("hamburger").style.display = "block";
     document.getElementById("close").style.display = "none";
     document.getElementById("mobile-nav").style.display = "none";
+  },
+  componentDidMount() {
+    this.hideNav();
+    window.addEventListener("resize", this.hideNav.bind(this));
+    window.addEventListener("resize", this.showNav.bind(this));
   },
   render() {
     return(
