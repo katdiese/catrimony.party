@@ -32,6 +32,11 @@ var WeekendDetails = React.createClass({
                   <li><strong>***Please Note: </strong> It will be snowy, and cold. It is encouraged to wear winter boots to the event, and change footwear there. There will be a coat room available.</li>
                   <li><a target="_blank" href="https://en.wikipedia.org/wiki/Black_tie">More Information</a></li>
                 </ul>
+              <li><strong>Children: </strong>We love kids. We (probably) love your kids. However, this event will be strictly adult. Hopefully you are happy about this, but if not, we hope you will forgive us - but we are not budging on this. You are welcome to bring your children to Keystone with you though! There are tons of family <a href="http://www.keystoneresort.com/activities/kidtopia.aspx?page=viewall">activities</a> that sound like a blast for kids. If you are interested in sharing a sitter, please contact us and we can help coordinate that! Here are some resources: </li>
+                  <ul>
+                    <li><a href="http://www.summitcove.com/area-info/business-partners/babysitters-in-summit-county/">Summit Cove Sitters</a></li>
+                    <li><a href="http://www.resortsitters.com/">Resort Sitters</a></li>
+                  </ul>
             </ul>
           </div>
         </div>
