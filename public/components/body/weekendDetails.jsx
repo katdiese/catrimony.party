@@ -10,7 +10,7 @@ var WeekendDetails = React.createClass({
             The party before the party (Welcome to Colorado!)
           </h4>
           <div className="eight columns">
-            <p>We know that the wedding day can go really quickly and so we want to dedicate as much time as possible to seeing you. We are hosting a welcome party, and we hope you can make it! The format here will be like an open house, so feel free to stay the whole time, or just stop by. We'd love to grab a drink with you and welcome you to Colorado.</p>
+            <p>We know that the wedding day can go really quickly and so we want to dedicate as much time as possible to seeing you. We are hosting a welcome party, and we hope you can make it! The format here will be like an open house, so feel free to stay the whole time, or just stop by. We'd love to grab a drink with you and welcome you to Colorado. Kids are welcome at this event.</p>
             <strong>Details:</strong>
             <ul>
               <li><strong>Date:</strong>&nbsp;Saturday, December 16th</li>
