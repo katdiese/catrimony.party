@@ -3,7 +3,6 @@ var WeekendDetails = require('./weekendDetails');
 var Travel = require('./travel');
 var FavoritePlaces = require('./favoritePlaces');
 var OurStory = require('./ourStory');
-var Gallery = require('./gallery');
 var Vip = require('./vip');
 
 var Body = React.createClass({
@@ -14,7 +13,7 @@ var Body = React.createClass({
         <OurStory />
         <Travel />
         <FavoritePlaces />
-        <Gallery />
+        <Vip />
       </div>
 
     );
